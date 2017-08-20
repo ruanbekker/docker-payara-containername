@@ -12,11 +12,7 @@ Build the Image and run a Container:
 ```
 $ git clone https://github.com/ruanbekker/docker-payara-containername
 $ docker build -t payara-containername .
-<<<<<<< HEAD
 $ docker run -itd --name payara-containername --publish 80:8080 payara-containername 
-=======
-$ docker run -itd --name payara-containername --publish 80:8080 payara-containername
->>>>>>> 40f1d3dd46147ed39c78469a018b68b08cea9651
 ```
 
 Test the Web Service:
